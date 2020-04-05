@@ -1,0 +1,631 @@
+@import url(""https://fonts.googleapis.com/css?family=Montserrat&display=swap"");
+.bg{
+        /* The image used */
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,100,0,0.5)), url("1.jpg");
+  
+        /* Half height */
+        width: 100%;
+        height: 920px;
+        margin-top: 0;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.logo-img{
+    width: 114px;
+    height: 110px;
+    margin-right: 550px;
+}
+.justify-content-end{
+    background-color: transparent;
+    height: 170px;
+    margin-right: 50px;
+}
+.nav-link{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    margin-top: 35px;
+}
+.nav-link:hover{
+    color:green;
+    font-family: 'Montserrat';
+    opacity: 0.8;
+    margin-top: 30px;
+}
+.ttitle{
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+}
+/*------programs-----*/
+.programs{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.programs h1{
+    margin-left: 50px;
+    margin-top: 50px;
+    color: black;
+    border-left: 7px green solid;
+}
+.programs p{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+}
+.img-pro{
+    float: right;
+    width: 550px;
+    height: 765px;
+    margin-right: 50px;
+}
+.program{
+    margin-top: 50px;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.wb{
+    display: flex;
+    margin-left: 50px;
+    color: white;
+}
+.wb h4 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.wb p {
+    margin-left: 20px;
+    color: white;
+}
+.weight{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+.body{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin-left: 20px;
+}
+.hy{
+    display: flex;
+    margin-left: 50px;
+    color: white;
+    margin-top: 20px;
+}
+.hy h4 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.hy p {
+    margin-left: 20px;
+    color: white;
+}
+.healthy{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+.yoga{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin-left: 20px;
+}
+/*------------------Offeres--------------------*/
+.offres{
+    /* The image used */
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,100,0,0.5)), url("3.jpg");
+
+    /* Half height */
+    width: 100%;
+    height: 250px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.offre{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.offre h3{
+    margin-bottom: 30px;
+}
+.offre button {
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    border: none;
+    outline: none;
+}
+.offre button:focus{
+    outline: none;
+}
+.offre button:hover {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: green;
+    border: 2px green solid;
+}
+.offre a{
+    text-decoration: none;
+    color: white;
+    margin-top: 100px;
+}
+.offre a:hover{
+    text-decoration: none;
+    color: green;
+    margin-top: 100px;
+}
+/*------------Schulde---------------*/
+.schulde{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.class{
+    display: flex;
+}
+
+.txt-class h1{
+    color: black;
+    border-left: 7px green solid;
+}
+.txt-class p{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btn-class button{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 420px;
+}
+.schuld{
+    display: flex;
+}
+.body-img{
+    display: block;
+    width: 50%;
+    margin-top: 50px;
+}
+.class-txt{
+    display: inline-flexbox;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 20px;
+}
+.txtt{
+    color: black;
+}
+.txtt p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: initial;
+}
+.txtt a{
+    margin-top: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    color: green;
+    transition: 0.1s;
+}
+.txtt a:hover{
+    margin-top: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.activity {
+    display: flex;
+    margin-top: 50px;
+}
+.activity h5{
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}
+.activity img {
+    width: 200px;
+    height: 130px;
+}
+
+.activity a:hover{
+    text-decoration: none;
+}
+.activity a h5:hover{
+    text-decoration: none;
+    color: green;
+}
+.body-b{
+    width: 200px;
+    height: 170px;
+}
+.yoga-f{
+    width: 200px;
+    height: 170px;
+    margin-left: 60px;
+}
+.kick-b{
+    width: 200px;
+    height: 170px;
+    margin-left: 60px;
+}
+.cardio-w{
+    width: 200px;
+    height: 170px;
+    margin-left: 60px;
+}
+/*---------------Planning-------------------*/
+.planning{
+        /* The image used */
+        background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,100,0,0.5)), url("8.jpg");
+        /* Half height */
+        width: 100%;
+        height: 540px;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: black;
+        margin-top: 50px;
+}
+
+.planning h1 {
+    margin-top: 50px;
+    display: inline-block;
+    border-bottom: 3px green solid;
+    color: white;
+}
+.planning h3 {
+    color: white;
+}
+#card{
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.card-body a{
+    background-color:transparent;
+    border: 1px green solid;
+    color: green;
+    transition: 0.2s;
+}
+.card-body a:hover{
+    background-color: green;
+    border: none;
+    font-size: large;
+}
+.row{
+    margin-top: 50px;
+}
+/*--------Trainner---------*/
+.trainer h1{
+    border-left: 5px green solid;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.trainer p {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.trainer {
+    margin-bottom: 100px;
+    padding-bottom: 0;
+}
+#coash {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.card{
+    margin-left: 60px;
+    transition: 0.2s;
+    height: 60%;
+}
+.card h5 {
+    color: black;
+}
+.card h6 {
+    color: green;
+}
+.card:hover{
+    box-shadow: 2px 2px 10px #b3ffb3;
+}
+.card-body{
+    text-align: center;
+    display: block;
+    position: relative;
+}
+.card-body1{
+    display: flex;
+    text-align: center;
+}
+.card-body1 img{
+    width: 15%;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+.btnn a{
+    background-color:transparent;
+    border: 1px green solid;
+    color: green;
+    transition: 0.2s;
+    border-radius: 45%;
+    margin-left: 115px;
+    margin-bottom: 10px;
+}
+.btnn a:hover{
+    background-color: green;
+    border: none;
+    font-size: large;
+}
+/*----------------Offre-------------------*/
+.offers{
+            /* The image used */
+            background-color: #f3f2f1;
+            /* Half height */
+            width: 100%;
+            height: 750px;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            color: black;
+            margin-top: 50px;
+}
+.txt-off h1{
+    border-bottom: 2px green solid;
+    display: inline-block;
+    margin-top: 50px;
+    color: black;
+}
+.txt-off h3{
+    color: black;
+    font-weight: normal;
+}
+.off_column{
+    display: flex;
+}
+.column{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px #e0e0d1 solid;
+    border-radius: 10px;
+}
+.column:hover{
+    margin-top: 40px;
+    box-shadow: 2px 2px 10px #b3ffb3;
+}
+.col-info{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.col-title{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+.price{
+    margin-top: 0px;
+    color: green;
+    font-size: 50px;
+    font-weight: normal;
+}
+.price span {
+    font-size: 20px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.col-features{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.btn-det{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn-det a{
+    background-color:transparent;
+    border: 1px green solid;
+    color: green;
+    transition: 0.2s;
+    border-radius: 20px;
+    width: 100px;
+}
+.btn-det a:hover{
+    background-color:green;
+    color: white;
+    font-size: large;
+    border: none;
+}
+/*--------News-----------*/
+.div-news{
+    text-align: center;
+}
+#new{
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#title-new{
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact {
+    /* The image used */
+     background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,100,0,0.5)), url("13.jpg");
+    /* Half height */
+     width: 100%;
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.contact h1 {
+    margin-left: 50px;
+    margin-top: 0px;
+    border-left: 5px green solid;
+}
+.contact p {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.contact form {
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.name-e input{
+    width: 250px;
+    height: 50px;
+}
+.name-e input::placeholder{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.subject input {
+    width: 504px;
+    height: 50px;
+    margin-top: 50px;
+}
+.subject input::placeholder{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.msg textarea {
+    width: 504px;
+    height: 300px;
+    margin-top: 50px;
+}
+.msg textarea::placeholder {
+    padding-left: 10px;
+}
+.contact form button{
+    width: 504px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-bottom: 50px;
+}
+/*----------------------Footer-------------------------*/
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.footer i{
+    margin-right: 10px;
+}
+.links{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+    border-bottom: 1px white solid ;
+}
+h5 {
+    border-left:  5px green solid;
+}
+.contactez-nous{
+    text-align: left;
+    color: white;
+    margin-top: 50px;
+}
+.contactez-nous img{
+    margin-right: 10px;
+}
+.loc {
+    width: 30px;
+    height: 30px;
+}
+.tel {
+    width: 30px;
+    height: 30px;
+}
+.mssg {
+    width: 30px;
+    height: 15px;
+}
+.contactez-nous p {
+    margin-top: 30px;
+}
+.liens-utils{
+    margin-left: 100px;
+    text-align: left;
+    color: white;
+    margin-top: 50px;
+}
+.liens-utils p {
+    margin-top: 30px;
+}
+.liens-utils a {
+    text-decoration: none;
+    color: white;
+}
+.liens-utils a:hover {
+    text-decoration: none;
+    color: green;
+}
+.follows{
+    margin-left: 100px;
+    text-align: left;
+    color: white;
+    margin-top: 50px;
+}
+.follows i {
+    font-size: 30px;
+}
+.follows i:hover {
+    color: green;
+}
+.social{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+
+footer{
+    color: white;
+    margin-left: 250px;
+}
